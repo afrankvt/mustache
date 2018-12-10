@@ -16,9 +16,12 @@ class Build : build::BuildPod
       "proj.uri":     "http://mustache.github.io",
       "license.name": "MIT",
       "vcs.name":     "Git",
-      "vcs.uri":      "https://github.com/afrankvt/mustache"
+      "vcs.uri":      "https://github.com/afrankvt/mustache",
+      "repo.public":  "true",
+      "repo.tags":    "web"
     ]
     depends = ["sys 1.0"]
     srcDirs = [`fan/`, `test/`]
+    resDirs = [`doc/`]
   }
 }
